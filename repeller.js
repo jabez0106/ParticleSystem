@@ -6,9 +6,9 @@ class Repeller {
 
   display() {
     stroke(255);
-    strokeWeight(2);
-    fill(127);
-    ellipse(this.position.x, this.position.y, 32, 32);
+    strokeWeight(0);
+    fill(0);
+    ellipse(this.position.x, this.position.y, 600, 600);
   }
 
   repel(p) {
